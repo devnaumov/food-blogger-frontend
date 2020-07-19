@@ -30,8 +30,8 @@ import config from "../../config";
 import { AppRootState, AppRootContext } from "./types";
 import { StorageFieldEnum, StorageValuesMap } from "../../types";
 import { Store } from "redux";
-import { RegisterMutation } from "../../types/gql";
-import { registerMutation } from "../../types/gql";
+import { RegisterMutation, registerMutation } from "../../types/gql/registerMutation";
+
 
 const { Provider: AppRootProvider } = appRootContext;
 
