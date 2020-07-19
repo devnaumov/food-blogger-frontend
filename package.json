@@ -56,6 +56,7 @@
     "start:http": "npm  check-env:dev && cross-env PORT=10889 react-app-rewired start",
     "start:https": "npm  run check-env:dev && cross-env HTTPS=true PORT=10888 react-app-rewired start",
     "tunnel": "ngrok http --region eu 10889",
+    "vk-tunnel": "vk-tunnel --insecure=0 --http-protocol=https --ws-protocol=wss --host=localhost --port=10888",
     "build": "npm  check-env:prod && react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
