@@ -17,7 +17,7 @@ const App = () => {
     return () => body.removeEventListener("touchstart", onTouchStart);
   }, [onTouchStart]);
 
-  return <div>test</div>;
+  return <div>marathon</div>;
 };
 
 export default React.memo(App);
